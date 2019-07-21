@@ -18,6 +18,8 @@
 		55924EFA22E4210000B2B707 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55924EF822E4210000B2B707 /* Follow.storyboard */; };
 		55924EFC22E4211200B2B707 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55924EFB22E4211200B2B707 /* Profile.storyboard */; };
 		55924EFF22E4220800B2B707 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55924EFD22E4220700B2B707 /* Main.storyboard */; };
+		55924F0722E4275400B2B707 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924F0622E4275400B2B707 /* HomeViewController.swift */; };
+		55924F0A22E42FE200B2B707 /* UIBarButtonItem_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924F0922E42FE200B2B707 /* UIBarButtonItem_extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		55924EF922E4210000B2B707 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouyuZB/Base.lproj/Follow.storyboard; sourceTree = "<group>"; };
 		55924EFB22E4211200B2B707 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		55924EFE22E4220700B2B707 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouyuZB/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		55924F0622E4275400B2B707 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		55924F0922E42FE200B2B707 /* UIBarButtonItem_extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBarButtonItem_extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +153,9 @@
 		55924EED22E4189D00B2B707 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				55924F0122E4264000B2B707 /* Model */,
+				55924F0022E4264000B2B707 /* View */,
+				55924F0222E4264700B2B707 /* Controller */,
 				55924EF322E420B100B2B707 /* Home.storyboard */,
 			);
 			path = Home;
@@ -157,6 +164,7 @@
 		55924EEE22E4189D00B2B707 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				55924F0822E42FAD00B2B707 /* Extension */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -188,9 +196,64 @@
 		55924EF222E4189D00B2B707 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				55924F0322E426A200B2B707 /* Model */,
+				55924F0422E426A200B2B707 /* View */,
+				55924F0522E426AC00B2B707 /* Controller */,
 				55924EFD22E4220700B2B707 /* Main.storyboard */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		55924F0022E4264000B2B707 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55924F0122E4264000B2B707 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55924F0222E4264700B2B707 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				55924F0622E4275400B2B707 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		55924F0322E426A200B2B707 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55924F0422E426A200B2B707 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55924F0522E426AC00B2B707 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			path = DouyuZB/Classes/Main/Controller;
+			sourceTree = SOURCE_ROOT;
+		};
+		55924F0822E42FAD00B2B707 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				55924F0922E42FE200B2B707 /* UIBarButtonItem_extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,8 +391,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55924F0A22E42FE200B2B707 /* UIBarButtonItem_extension.swift in Sources */,
 				55365E8322E1998D0049F48F /* AppDelegate.swift in Sources */,
 				55365E8B22E1998D0049F48F /* DouyuZB.xcdatamodeld in Sources */,
+				55924F0722E4275400B2B707 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
