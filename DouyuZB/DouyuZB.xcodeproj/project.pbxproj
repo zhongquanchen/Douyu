@@ -20,6 +20,8 @@
 		55924EFF22E4220800B2B707 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55924EFD22E4220700B2B707 /* Main.storyboard */; };
 		55924F0722E4275400B2B707 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924F0622E4275400B2B707 /* HomeViewController.swift */; };
 		55924F0A22E42FE200B2B707 /* UIBarButtonItem_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924F0922E42FE200B2B707 /* UIBarButtonItem_extension.swift */; };
+		55924F0C22E447B900B2B707 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924F0B22E447B900B2B707 /* PageTitleView.swift */; };
+		55924F0E22E44BC400B2B707 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924F0D22E44BC400B2B707 /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		55924EFE22E4220700B2B707 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouyuZB/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		55924F0622E4275400B2B707 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		55924F0922E42FE200B2B707 /* UIBarButtonItem_extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBarButtonItem_extension.swift; sourceTree = "<group>"; };
+		55924F0B22E447B900B2B707 /* PageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		55924F0D22E44BC400B2B707 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				55924F0822E42FAD00B2B707 /* Extension */,
+				55924F0D22E44BC400B2B707 /* Common.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -236,6 +241,7 @@
 		55924F0422E426A200B2B707 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				55924F0B22E447B900B2B707 /* PageTitleView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -393,7 +399,9 @@
 			files = (
 				55924F0A22E42FE200B2B707 /* UIBarButtonItem_extension.swift in Sources */,
 				55365E8322E1998D0049F48F /* AppDelegate.swift in Sources */,
+				55924F0C22E447B900B2B707 /* PageTitleView.swift in Sources */,
 				55365E8B22E1998D0049F48F /* DouyuZB.xcdatamodeld in Sources */,
+				55924F0E22E44BC400B2B707 /* Common.swift in Sources */,
 				55924F0722E4275400B2B707 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
