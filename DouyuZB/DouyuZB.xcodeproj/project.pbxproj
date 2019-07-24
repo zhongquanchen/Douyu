@@ -22,6 +22,15 @@
 		55924F0A22E42FE200B2B707 /* UIBarButtonItem_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924F0922E42FE200B2B707 /* UIBarButtonItem_extension.swift */; };
 		55924F0C22E447B900B2B707 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924F0B22E447B900B2B707 /* PageTitleView.swift */; };
 		55924F0E22E44BC400B2B707 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924F0D22E44BC400B2B707 /* Common.swift */; };
+		55924F1022E5884200B2B707 /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924F0F22E5884200B2B707 /* PageContentView.swift */; };
+		55924F1222E58D4F00B2B707 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924F1122E58D4F00B2B707 /* UIColor-Extension.swift */; };
+		55924F1422E8233E00B2B707 /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924F1322E8233D00B2B707 /* RecommendViewController.swift */; };
+		55924F1722E831DD00B2B707 /* CollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924F1522E831DD00B2B707 /* CollectionHeaderView.swift */; };
+		55924F1822E831DD00B2B707 /* CollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55924F1622E831DD00B2B707 /* CollectionHeaderView.xib */; };
+		55924F1B22E839BE00B2B707 /* CollectionNormalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924F1922E839BE00B2B707 /* CollectionNormalCell.swift */; };
+		55924F1C22E839BE00B2B707 /* CollectionNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55924F1A22E839BE00B2B707 /* CollectionNormalCell.xib */; };
+		55924F1F22E83FE900B2B707 /* CollectionPrettyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55924F1D22E83FE900B2B707 /* CollectionPrettyCell.swift */; };
+		55924F2022E83FE900B2B707 /* CollectionPrettyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55924F1E22E83FE900B2B707 /* CollectionPrettyCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +72,15 @@
 		55924F0922E42FE200B2B707 /* UIBarButtonItem_extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBarButtonItem_extension.swift; sourceTree = "<group>"; };
 		55924F0B22E447B900B2B707 /* PageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
 		55924F0D22E44BC400B2B707 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		55924F0F22E5884200B2B707 /* PageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
+		55924F1122E58D4F00B2B707 /* UIColor-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		55924F1322E8233D00B2B707 /* RecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
+		55924F1522E831DD00B2B707 /* CollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionHeaderView.swift; sourceTree = "<group>"; };
+		55924F1622E831DD00B2B707 /* CollectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionHeaderView.xib; sourceTree = "<group>"; };
+		55924F1922E839BE00B2B707 /* CollectionNormalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionNormalCell.swift; sourceTree = "<group>"; };
+		55924F1A22E839BE00B2B707 /* CollectionNormalCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionNormalCell.xib; sourceTree = "<group>"; };
+		55924F1D22E83FE900B2B707 /* CollectionPrettyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionPrettyCell.swift; sourceTree = "<group>"; };
+		55924F1E22E83FE900B2B707 /* CollectionPrettyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionPrettyCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +230,8 @@
 		55924F0022E4264000B2B707 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				55924F1522E831DD00B2B707 /* CollectionHeaderView.swift */,
+				55924F1622E831DD00B2B707 /* CollectionHeaderView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -227,6 +247,7 @@
 			isa = PBXGroup;
 			children = (
 				55924F0622E4275400B2B707 /* HomeViewController.swift */,
+				55924F1322E8233D00B2B707 /* RecommendViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -242,6 +263,11 @@
 			isa = PBXGroup;
 			children = (
 				55924F0B22E447B900B2B707 /* PageTitleView.swift */,
+				55924F0F22E5884200B2B707 /* PageContentView.swift */,
+				55924F1922E839BE00B2B707 /* CollectionNormalCell.swift */,
+				55924F1A22E839BE00B2B707 /* CollectionNormalCell.xib */,
+				55924F1D22E83FE900B2B707 /* CollectionPrettyCell.swift */,
+				55924F1E22E83FE900B2B707 /* CollectionPrettyCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -258,6 +284,7 @@
 			isa = PBXGroup;
 			children = (
 				55924F0922E42FE200B2B707 /* UIBarButtonItem_extension.swift */,
+				55924F1122E58D4F00B2B707 /* UIColor-Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -367,10 +394,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				55924EFF22E4220800B2B707 /* Main.storyboard in Resources */,
+				55924F1822E831DD00B2B707 /* CollectionHeaderView.xib in Resources */,
+				55924F1C22E839BE00B2B707 /* CollectionNormalCell.xib in Resources */,
 				55365E9022E1998F0049F48F /* LaunchScreen.storyboard in Resources */,
 				55365E8D22E1998F0049F48F /* Assets.xcassets in Resources */,
 				55924EF722E420D000B2B707 /* Live.storyboard in Resources */,
 				55924EF522E420B100B2B707 /* Home.storyboard in Resources */,
+				55924F2022E83FE900B2B707 /* CollectionPrettyCell.xib in Resources */,
 				55924EFC22E4211200B2B707 /* Profile.storyboard in Resources */,
 				55924EFA22E4210000B2B707 /* Follow.storyboard in Resources */,
 			);
@@ -398,10 +428,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				55924F0A22E42FE200B2B707 /* UIBarButtonItem_extension.swift in Sources */,
+				55924F1722E831DD00B2B707 /* CollectionHeaderView.swift in Sources */,
+				55924F1222E58D4F00B2B707 /* UIColor-Extension.swift in Sources */,
+				55924F1422E8233E00B2B707 /* RecommendViewController.swift in Sources */,
 				55365E8322E1998D0049F48F /* AppDelegate.swift in Sources */,
 				55924F0C22E447B900B2B707 /* PageTitleView.swift in Sources */,
+				55924F1022E5884200B2B707 /* PageContentView.swift in Sources */,
 				55365E8B22E1998D0049F48F /* DouyuZB.xcdatamodeld in Sources */,
 				55924F0E22E44BC400B2B707 /* Common.swift in Sources */,
+				55924F1F22E83FE900B2B707 /* CollectionPrettyCell.swift in Sources */,
+				55924F1B22E839BE00B2B707 /* CollectionNormalCell.swift in Sources */,
 				55924F0722E4275400B2B707 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

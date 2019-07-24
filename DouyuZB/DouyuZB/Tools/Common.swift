@@ -11,9 +11,10 @@ import UIKit
 
 let kStatusBarH : CGFloat = UIApplication.shared.isStatusBarHidden ? CGFloat(0) : UIApplication.shared.statusBarFrame.height
 let kNavigationBarH : CGFloat = 44
-
-
+let kTitleViewH : CGFloat = 40
+let kTabBar : CGFloat = 44
 
 let kScreenW = UIScreen.main.bounds.width
 let kScreenH = UIScreen.main.bounds.height
+
 
